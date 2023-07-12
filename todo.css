@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+
+  background-color: #808080;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.button {
+  padding: 10px 30px;
+  background-color: cyan;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.input {
+  padding: 10px 30px;
+  color: blue;
+  outline: none;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+}
+.info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header__input-text {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.todo-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.todo-list__input {
+  border: 0 solid #ffff;
+}
+
+.todo-list__button {
+  margin: 5px 30px 40px;
+  padding: 5px 15px;
+}
+
+.buttonDate {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list__item_red {
+  background-color: red;
+}
+
+.todo-list__input_crossed {
+  text-decoration: line-through;
+}
+.hide {
+  display: none;
+}
